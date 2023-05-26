@@ -14,6 +14,7 @@
  * More info on equality comparisons here:
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
  */
+
 let a1 = document.getElementById("a1");
 let a2 = document.getElementById("a2");
 let a3 = document.getElementById("a3");
@@ -22,6 +23,7 @@ let a5 = document.getElementById("a5");
 let a6 = document.getElementById("a6");
 let a7 = document.getElementById("a7");
 let a8 = document.getElementById("a8");
+
 a1.innerText = doubleEquals(5, 6);
 a2.innerText = doubleEquals(5, 5);
 a3.innerText = doubleEquals(5, "5");
@@ -31,6 +33,7 @@ a6.innerText = tripleEquals(5, 5);
 a7.innerText = tripleEquals(5, "5");
 a8.innerText = tripleEquals("5", "5");
 
+
 /**
  * TODO: use the == operator to return the boolean result of an equality comparison for a and b that does NOT also check
  * for equality between types (with type coercion)
@@ -39,8 +42,10 @@ a8.innerText = tripleEquals("5", "5");
  * @param b
  */
 function doubleEquals(a, b){
-//    code here
+    //    code here
 }
+
+
 /**
  * TODO: use the === operator to return the boolean result of an equality comparison for a and b that also checks for
  * equality between types (no type coercion)
@@ -49,5 +54,13 @@ function doubleEquals(a, b){
  * @param b
  */
 function tripleEquals(a, b){
-//    code here
+    //    code here
 }
+
+/*  OPTIONAL PRACTICE: If you want more practice later, try using the "typeof" method in JS; this operator returns
+    a string that represents what type of data it was given.
+    
+    Example:
+        typeof(5);    
+        typeof("5");
+*/
