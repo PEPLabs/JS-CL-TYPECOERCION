@@ -28,6 +28,14 @@ public class SeleniumTest {
         driver.get(file.getAbsolutePath());
     }
 
+    @Test
+    public void testPageElements() {
+        List<WebElement> resultElements = driver.findElements(By.xpath("//p[@id]"));
+        // Verify the number of elements with id attributes
+        assertEquals(12, resultElements.size());
+    }
+
+
 
     @After
     public void tearDown() {
