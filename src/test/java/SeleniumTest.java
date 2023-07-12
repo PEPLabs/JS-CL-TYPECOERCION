@@ -20,7 +20,7 @@ public class SeleniumTest {
     @BeforeEach
     void setup() {
         // Set up ChromeDriver path
-        System.setProperty("webdriver.chrome.driver", "/driver/chromedriver");//linux_64
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");//linux_64
 
         // Get file
         File file = new File("TypeCoercion.html");
