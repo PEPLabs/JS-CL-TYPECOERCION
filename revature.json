@@ -1,0 +1,75 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testPageElements",
+          "label": "All result paragraphs are rendered",
+          "description": "Finds all <p> elements with an id attribute via the XPath //p[@id] and asserts that there are exactly 12 elements, confirming that all type-coercion result placeholders are present on the page."
+        },
+        {
+          "methodName": "testDoubleEqualsOperator_a1",
+          "label": "== operator case a1 is false",
+          "description": "Locates the element with id 'a1' and asserts that its text content is 'false', validating the expected result of the first double-equals (==) comparison scenario."
+        },
+        {
+          "methodName": "testDoubleEqualsOperator_a2",
+          "label": "== operator case a2 is true",
+          "description": "Locates the element with id 'a2' and asserts that its text content is 'true', validating the second double-equals (==) comparison scenario."
+        },
+        {
+          "methodName": "testDoubleEqualsOperator_a3",
+          "label": "== operator case a3 is true",
+          "description": "Locates the element with id 'a3' and asserts that its text content is 'true', validating the third double-equals (==) comparison scenario."
+        },
+        {
+          "methodName": "testDoubleEqualsOperator_a4",
+          "label": "== operator case a4 is true",
+          "description": "Locates the element with id 'a4' and asserts that its text content is 'true', validating the fourth double-equals (==) comparison scenario."
+        },
+        {
+          "methodName": "testTripleEqualsOperator_a5",
+          "label": "=== operator case a5 is false",
+          "description": "Locates the element with id 'a5' and asserts that its text content is 'false', validating the first triple-equals (===) strict comparison scenario."
+        },
+        {
+          "methodName": "testTripleEqualsOperator_a6",
+          "label": "=== operator case a6 is true",
+          "description": "Locates the element with id 'a6' and asserts that its text content is 'true', validating the second triple-equals (===) strict comparison scenario."
+        },
+        {
+          "methodName": "testTripleEqualsOperator_a7",
+          "label": "=== operator case a7 is false",
+          "description": "Locates the element with id 'a7' and asserts that its text content is 'false', validating the third triple-equals (===) strict comparison scenario."
+        },
+        {
+          "methodName": "testTripleEqualsOperator_a8",
+          "label": "=== operator case a8 is true",
+          "description": "Locates the element with id 'a8' and asserts that its text content is 'true', validating the fourth triple-equals (===) strict comparison scenario."
+        },
+        {
+          "methodName": "testExplicitTypeCoercion_a9",
+          "label": "Explicit type coercion a9 result 56",
+          "description": "Locates the element with id 'a9' and asserts that its text content is '56', verifying the expected result of an explicit type-coercion operation (likely string concatenation or numeric conversion) in example a9."
+        },
+        {
+          "methodName": "testExplicitTypeCoercion_a10",
+          "label": "Explicit type coercion a10 result 11",
+          "description": "Locates the element with id 'a10' and asserts that its text content is '11', verifying the explicit type-coercion behavior in example a10."
+        },
+        {
+          "methodName": "testExplicitTypeCoercion_a11",
+          "label": "Explicit type coercion a11 result 7",
+          "description": "Locates the element with id 'a11' and asserts that its text content is '7', verifying the explicit type-coercion behavior in example a11."
+        },
+        {
+          "methodName": "testExplicitTypeCoercion_a12",
+          "label": "Explicit type coercion a12 result 6",
+          "description": "Locates the element with id 'a12' and asserts that its text content is '6', verifying the explicit type-coercion behavior in example a12."
+        }
+      ]
+    }
+  ]
+}
